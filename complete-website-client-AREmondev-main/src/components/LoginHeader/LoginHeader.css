@@ -1,0 +1,46 @@
+.admin-header-area {
+  float: left;
+  height: 100vh;
+  width: 20%;
+}
+.adminNav {
+  background-color: #203d37;
+  padding: 25px 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.adminNav a {
+  text-decoration: none !important;
+}
+.site-logo {
+  margin-bottom: 22px;
+  text-align: center;
+  padding: 0 8px;
+}
+.site-logo h3 a {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+.admin-nav-menu a {
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-weight: 500;
+  padding: 8px 22px;
+  transition: 0.35s;
+  -webkit-transition: 0.35s;
+  -moz-transition: 0.35s;
+  -ms-transition: 0.35s;
+  -o-transition: 0.35s;
+}
+.admin-nav-menu a.active {
+  background-color: #2d524a;
+  color: #ffff;
+}
+.admin-nav-menu a:hover {
+  background-color: #2d524a;
+  color: #ffff !important;
+}

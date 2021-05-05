@@ -1,0 +1,37 @@
+.sticky {
+  height: 9.4rem;
+  line-height: 9.4rem;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.sticky-menu {
+  height: 7rem;
+  line-height: 7rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 10px 15px #ffcc0128;
+}
+
+.menu li:not(:last-child) {
+  margin-right: 3rem;
+}
+.menu-btn-area ul:not(:last-child) {
+  margin-right: 2.15rem;
+}
+header li a {
+  color: #1f373d;
+  font-size: 1.3rem;
+}
+.tablet-menu {
+  display: none;
+}
+header button.btn {
+  display: none;
+  margin-left: 1.5rem;
+}

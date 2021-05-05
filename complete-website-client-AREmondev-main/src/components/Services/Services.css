@@ -1,0 +1,17 @@
+.service_name {
+  font-size: 26px;
+}
+.service_item {
+  cursor: pointer;
+}
+.service-price {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 0 35px 0px 0;
+}
+.service_img {
+  max-height: 70px;
+  width: 70px;
+  position: absolute;
+  right: 35px;
+}
